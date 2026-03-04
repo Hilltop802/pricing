@@ -1,64 +1,59 @@
-
 {
+  "schema_version": "hilltop-pricing-v1",
   "provider": "HOP Energy",
-  "fuel_type": "propane",
+  "fuel": "propane",
+  "lookup_mode": "global",
   "plans": [
     {
-      "plan_name": "Variable (400 Gallons)",
+      "plan_id": "hop_propane_variable",
       "plan_type": "variable",
-      "price_tier": "0-400",
-      "rate": 2.71,
-      "unit": "gallon",
+      "label": "Variable (Tiered)",
+      "fuel": "propane",
+      "unit": "per_gallon",
+      "status": "open",
+      "status_reason": "",
+      "status_updated": "2026-03-04",
       "effective_date": "2025-11-01",
-      "expires_date": null,
-      "plan_open": true,
-      "notes": "HOP indicated this propane pricing has stayed the same since November."
+      "expires_date": "2026-06-30",
+      "pricing": {
+        "mode": "tiers",
+        "tiers": {
+          "0-400": 2.71,
+          "500-750": 2.58,
+          "750-1500": 2.51,
+          "1500-2000": 2.36
+        }
+      },
+      "promo": {
+        "enabled": false,
+        "headline": "",
+        "body": "",
+        "include_in_savings": false
+      },
+      "notes": "HOP indicated propane pricing has remained the same since Nov. Update when changed."
     },
     {
-      "plan_name": "Variable (500-750 Gallons)",
-      "plan_type": "variable",
-      "price_tier": "500-750",
-      "rate": 2.58,
-      "unit": "gallon",
-      "effective_date": "2025-11-01",
-      "expires_date": null,
-      "plan_open": true
-    },
-    {
-      "plan_name": "Variable (750-1500 Gallons)",
-      "plan_type": "variable",
-      "price_tier": "750-1500",
-      "rate": 2.51,
-      "unit": "gallon",
-      "effective_date": "2025-11-01",
-      "expires_date": null,
-      "plan_open": true
-    },
-    {
-      "plan_name": "Variable (1500-2000 Gallons)",
-      "plan_type": "variable",
-      "price_tier": "1500-2000",
-      "rate": 2.36,
-      "unit": "gallon",
-      "effective_date": "2025-11-01",
-      "expires_date": null,
-      "plan_open": true
-    },
-    {
-      "plan_name": "First Fill Promo",
+      "plan_id": "hop_propane_first_fill_promo",
       "plan_type": "promo",
-      "price_tier": "first_fill",
-      "rate": 1.81,
-      "unit": "gallon",
+      "label": "First Fill Promo",
+      "fuel": "propane",
+      "unit": "per_gallon",
+      "status": "open",
+      "status_reason": "",
+      "status_updated": "2026-03-04",
       "effective_date": "2025-11-01",
-      "expires_date": null,
-      "plan_open": true,
+      "expires_date": "2026-06-30",
+      "pricing": {
+        "mode": "flat",
+        "price": 1.81
+      },
       "promo": {
         "enabled": true,
         "headline": "PROMOTIONAL OFFER",
         "body": "First fill only. Terms apply. Not included in savings calculations.",
         "include_in_savings": false
-      }
+      },
+      "notes": "Displayed only; do not include in savings math."
     }
   ]
 }
