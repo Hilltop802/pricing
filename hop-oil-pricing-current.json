@@ -1,52 +1,100 @@
 {
+  "schema_version": "hilltop-pricing-v1",
   "provider": "HOP Energy",
-  "fuel_type": "heating_oil",
+  "fuel": "heating_oil",
+  "lookup_mode": "global",
   "plans": [
     {
-      "plan_name": "First Delivery (Promo)",
+      "plan_id": "hop_oil_first_delivery_promo",
       "plan_type": "promo",
-      "rate": 3.199,
-      "unit": "gallon",
+      "label": "First Delivery (Promo)",
+      "fuel": "heating_oil",
+      "unit": "per_gallon",
+      "status": "closed",
+      "status_reason": "Closed for testing",
+      "status_updated": "2026-03-04",
       "effective_date": "2026-03-03",
-      "expires_date": null,
-      "plan_open": false,
+      "expires_date": "2026-03-10",
+      "pricing": {
+        "mode": "flat",
+        "price": 3.199
+      },
       "promo": {
         "enabled": true,
         "headline": "PROMOTIONAL OFFER",
         "body": "First delivery only. Terms apply. Not included in savings calculations.",
         "include_in_savings": false
       },
-      "notes": "Marking CLOSED for testing per Keith."
+      "notes": "HOP oil updated 2026-03-03 per Keith. Keep CLOSED for testing."
     },
     {
-      "plan_name": "Capped",
+      "plan_id": "hop_oil_capped",
       "plan_type": "capped",
-      "rate": 3.579,
-      "unit": "gallon",
+      "label": "Capped",
+      "fuel": "heating_oil",
+      "unit": "per_gallon",
+      "status": "closed",
+      "status_reason": "Closed for testing",
+      "status_updated": "2026-03-04",
       "effective_date": "2026-03-03",
-      "expires_date": null,
-      "plan_open": false,
-      "notes": "Includes free downside protection. Marking CLOSED for testing per Keith."
+      "expires_date": "2026-03-10",
+      "pricing": {
+        "mode": "flat",
+        "price": 3.579
+      },
+      "promo": {
+        "enabled": false,
+        "headline": "",
+        "body": "",
+        "include_in_savings": false
+      },
+      "notes": "Includes downside protection. Keep CLOSED for testing."
     },
     {
-      "plan_name": "Fixed",
+      "plan_id": "hop_oil_fixed",
       "plan_type": "fixed",
-      "rate": 3.399,
-      "unit": "gallon",
+      "label": "Fixed",
+      "fuel": "heating_oil",
+      "unit": "per_gallon",
+      "status": "closed",
+      "status_reason": "Closed for testing",
+      "status_updated": "2026-03-04",
       "effective_date": "2026-03-03",
-      "expires_date": null,
-      "plan_open": false,
-      "notes": "Requires budget/auto pay. Marking CLOSED for testing per Keith."
+      "expires_date": "2026-03-10",
+      "pricing": {
+        "mode": "flat",
+        "price": 3.399
+      },
+      "promo": {
+        "enabled": false,
+        "headline": "",
+        "body": "",
+        "include_in_savings": false
+      },
+      "notes": "Requires budget/auto pay. Keep CLOSED for testing."
     },
     {
-      "plan_name": "Pre-Buy",
+      "plan_id": "hop_oil_prebuy",
       "plan_type": "prebuy",
-      "rate": 3.299,
-      "unit": "gallon",
+      "label": "Pre-Buy",
+      "fuel": "heating_oil",
+      "unit": "per_gallon",
+      "status": "closed",
+      "status_reason": "Closed for testing",
+      "status_updated": "2026-03-04",
       "effective_date": "2026-03-03",
-      "expires_date": null,
-      "plan_open": false,
-      "notes": "All gallons paid up front. Marking CLOSED for testing per Keith."
+      "expires_date": "2026-03-10",
+      "pricing": {
+        "mode": "flat",
+        "price": 3.299
+      },
+      "promo": {
+        "enabled": false,
+        "headline": "",
+        "body": "",
+        "include_in_savings": false
+      },
+      "notes": "All gallons paid up front. Keep CLOSED for testing."
     }
   ]
 }
