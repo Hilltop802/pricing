@@ -1,0 +1,100 @@
+{
+  "schema_version": "hilltop-pricing-v1",
+  "provider": "HOP Energy",
+  "fuel": "heating_oil",
+  "lookup_mode": "global",
+  "plans": [
+    {
+      "plan_id": "hop_oil_first_fill_promo",
+      "plan_type": "promo",
+      "label": "First Fill Special",
+      "fuel": "heating_oil",
+      "unit": "per_gallon",
+      "status": "closed",
+      "status_reason": "Closed for testing",
+      "status_updated": "2026-03-04",
+      "effective_date": "2026-03-04",
+      "expires_date": "2026-04-03",
+      "pricing": {
+        "mode": "flat",
+        "price": 3.089
+      },
+      "promo": {
+        "enabled": true,
+        "headline": "PROMOTIONAL OFFER",
+        "body": "First delivery only. Terms apply. Not included in savings calculations.",
+        "include_in_savings": false
+      },
+      "notes": "PLACEHOLDER. Marked CLOSED for testing."
+    },
+    {
+      "plan_id": "hop_oil_prebuy",
+      "plan_type": "prebuy",
+      "label": "Pre-Buy Plan",
+      "fuel": "heating_oil",
+      "unit": "per_gallon",
+      "status": "closed",
+      "status_reason": "Closed for testing",
+      "status_updated": "2026-03-04",
+      "effective_date": "2026-03-04",
+      "expires_date": "2026-04-03",
+      "pricing": {
+        "mode": "flat",
+        "price": 3.189
+      },
+      "promo": {
+        "enabled": false,
+        "headline": "",
+        "body": "",
+        "include_in_savings": false
+      },
+      "notes": "PLACEHOLDER. Marked CLOSED for testing."
+    },
+    {
+      "plan_id": "hop_oil_fixed",
+      "plan_type": "fixed",
+      "label": "Fixed Price Plan",
+      "fuel": "heating_oil",
+      "unit": "per_gallon",
+      "status": "closed",
+      "status_reason": "Closed for testing",
+      "status_updated": "2026-03-04",
+      "effective_date": "2026-03-04",
+      "expires_date": "2026-04-03",
+      "pricing": {
+        "mode": "flat",
+        "price": 3.289
+      },
+      "promo": {
+        "enabled": false,
+        "headline": "",
+        "body": "",
+        "include_in_savings": false
+      },
+      "notes": "PLACEHOLDER. Marked CLOSED for testing."
+    },
+    {
+      "plan_id": "hop_oil_capped",
+      "plan_type": "capped",
+      "label": "Capped Price Plan",
+      "fuel": "heating_oil",
+      "unit": "per_gallon",
+      "status": "closed",
+      "status_reason": "Closed for testing",
+      "status_updated": "2026-03-04",
+      "effective_date": "2026-03-04",
+      "expires_date": "2026-04-03",
+      "pricing": {
+        "mode": "flat",
+        "price": 3.469
+      },
+      "promo": {
+        "enabled": false,
+        "headline": "",
+        "body": "",
+        "include_in_savings": false
+      },
+      "notes": "PLACEHOLDER. Marked CLOSED for testing."
+    }
+  ]
+}
