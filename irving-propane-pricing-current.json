@@ -7,7 +7,7 @@
     {
       "plan_id": "irving_propane_rack",
       "plan_type": "rack",
-      "label": "Rack Pricing (Tiers 1–4)",
+      "label": "Rack Pricing",
       "fuel": "propane",
       "unit": "per_gallon",
       "status": "open",
@@ -17,12 +17,12 @@
       "expires_date": "2026-03-05",
       "pricing": {
         "mode": "tiers",
-  "tiers": {
-    "0-500": 3.729,
-    "501-1000": 3.079,
-    "1001-1500": 2.879,
-    "1500+": 2.779
-}
+        "tiers": {
+          "0-500": 3.729,
+          "501-1000": 3.079,
+          "1001-1500": 2.879,
+          "1500+": 2.779
+        }
       },
       "promo": {
         "enabled": false,
@@ -30,7 +30,7 @@
         "body": "",
         "include_in_savings": false
       },
-      "notes": "Petroleum Price Confirmation effective 2026-03-04. Irving rack changes daily; update this file daily. Tier-to-gallon mapping is handled in funnel logic."
+      "notes": "Irving rack pricing. Lowest price reflects highest usage (1500+ gallons). Rates may change daily."
     }
   ]
 }
