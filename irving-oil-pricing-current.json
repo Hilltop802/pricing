@@ -1,1 +1,17 @@
 
+{
+  "provider": "Irving Energy",
+  "fuel_type": "heating_oil",
+  "plans": [
+    {
+      "plan_name": "Rack Plus Pricing",
+      "plan_type": "variable",
+      "rate": 4.0469,
+      "unit": "gallon",
+      "effective_date": "2026-03-04",
+      "expires_date": null,
+      "plan_open": true,
+      "notes": "ULS Heating Oil rack plus pricing"
+    }
+  ]
+}
