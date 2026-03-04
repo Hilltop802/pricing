@@ -1,36 +1,46 @@
 {
-  "schema_version": "hilltop-pricing-v1",
   "provider": "Irving Energy",
-  "fuel": "propane",
-  "lookup_mode": "global",
+  "fuel_type": "propane",
   "plans": [
     {
-      "plan_id": "irving_propane_rack",
-      "plan_type": "rack",
-      "label": "Rack / Variable (Daily)",
-      "fuel": "propane",
-      "unit": "per_gallon",
-      "status": "open",
-      "status_reason": "",
-      "status_updated": "2026-03-04",
-      "effective_date": "2024-02-27",
-      "expires_date": "2024-02-28",
-      "pricing": {
-        "mode": "tiers",
-        "tiers": {
-          "0-500": 3.42,
-          "501-1000": 2.77,
-          "1001-1500": 2.57,
-          "1500+": 2.47
-        }
-      },
-      "promo": {
-        "enabled": false,
-        "headline": "",
-        "body": "",
-        "include_in_savings": false
-      },
-      "notes": "Current record sourced from historical dataset."
+      "plan_name": "Rack Tier 1",
+      "plan_type": "variable",
+      "price_tier": "tier1",
+      "rate": 3.7290,
+      "unit": "gallon",
+      "effective_date": "2026-03-04",
+      "expires_date": null,
+      "plan_open": true
+    },
+    {
+      "plan_name": "Rack Tier 2",
+      "plan_type": "variable",
+      "price_tier": "tier2",
+      "rate": 3.0790,
+      "unit": "gallon",
+      "effective_date": "2026-03-04",
+      "expires_date": null,
+      "plan_open": true
+    },
+    {
+      "plan_name": "Rack Tier 3",
+      "plan_type": "variable",
+      "price_tier": "tier3",
+      "rate": 2.8790,
+      "unit": "gallon",
+      "effective_date": "2026-03-04",
+      "expires_date": null,
+      "plan_open": true
+    },
+    {
+      "plan_name": "Rack Tier 4",
+      "plan_type": "variable",
+      "price_tier": "tier4",
+      "rate": 2.7790,
+      "unit": "gallon",
+      "effective_date": "2026-03-04",
+      "expires_date": null,
+      "plan_open": true
     }
   ]
 }
