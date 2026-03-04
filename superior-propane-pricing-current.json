@@ -1,0 +1,35 @@
+{
+  "schema_version": "hilltop-pricing-v1",
+  "provider": "Superior Plus",
+  "fuel": "propane",
+  "lookup_mode": "global",
+  "plans": [
+    {
+      "plan_id": "superior_propane_fixed",
+      "plan_type": "fixed",
+      "label": "Fixed (Season)",
+      "fuel": "propane",
+      "unit": "per_gallon",
+      "status": "open",
+      "status_reason": "",
+      "status_updated": "2026-03-04",
+      "effective_date": "2025-07-01",
+      "expires_date": "2026-06-30",
+      "pricing": {
+        "mode": "tiers",
+        "tiers": {
+          "0-499": 2.44,
+          "500-999": 2.14,
+          "1000+": 2.04
+        }
+      },
+      "promo": {
+        "enabled": false,
+        "headline": "",
+        "body": "",
+        "include_in_savings": false
+      },
+      "notes": "Superior fixed is same as AmeriGas for current season per Keith. No variable plan."
+    }
+  ]
+}
