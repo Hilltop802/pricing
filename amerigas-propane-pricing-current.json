@@ -1,27 +1,26 @@
 {
   "schema_version": "hilltop-pricing-v1",
-  "provider": "Irving Energy",
+  "provider": "AmeriGas",
   "fuel": "propane",
   "lookup_mode": "global",
   "plans": [
     {
-      "plan_id": "irving_propane_rack",
-      "plan_type": "rack",
-      "label": "Rack / Variable (Daily)",
+      "plan_id": "amerigas_propane_variable",
+      "plan_type": "variable",
+      "label": "Variable (Weekly)",
       "fuel": "propane",
       "unit": "per_gallon",
       "status": "open",
       "status_reason": "",
       "status_updated": "2026-03-04",
-      "effective_date": "2024-02-27",
-      "expires_date": "2024-02-28",
+      "effective_date": "2026-02-10",
+      "expires_date": "2026-02-17",
       "pricing": {
         "mode": "tiers",
         "tiers": {
-          "0-500": 3.42,
-          "501-1000": 2.77,
-          "1001-1500": 2.57,
-          "1500+": 2.47
+          "0-499": 2.72,
+          "500-999": 2.52,
+          "1000+": 2.42
         }
       },
       "promo": {
@@ -30,7 +29,34 @@
         "body": "",
         "include_in_savings": false
       },
-      "notes": "Current record sourced from historical dataset."
+      "notes": "Current record sourced from historical dataset (key 'N_VT_Littleton_23')."
+    },
+    {
+      "plan_id": "amerigas_propane_fixed",
+      "plan_type": "fixed",
+      "label": "Fixed (Season)",
+      "fuel": "propane",
+      "unit": "per_gallon",
+      "status": "open",
+      "status_reason": "",
+      "status_updated": "2026-03-04",
+      "effective_date": "2025-07-01",
+      "expires_date": "2026-06-30",
+      "pricing": {
+        "mode": "tiers",
+        "tiers": {
+          "0-499": 2.44,
+          "500-999": 2.14,
+          "1000+": 2.04
+        }
+      },
+      "promo": {
+        "enabled": false,
+        "headline": "",
+        "body": "",
+        "include_in_savings": false
+      },
+      "notes": "Fixed tiers per Keith. Update dates/tiers if contract changes."
     }
   ]
 }
