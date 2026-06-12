@@ -12,15 +12,15 @@
       "unit": "per_gallon",
       "status": "open",
       "status_reason": "",
-      "status_updated": "2026-03-04",
-      "effective_date": "2026-02-10",
-      "expires_date": "2026-02-17",
+      "status_updated": "2026-06-04",
+      "effective_date": "2026-06-04",
+      "expires_date": "2026-06-11",
       "pricing": {
         "mode": "tiers",
         "tiers": {
-          "0-499": 2.72,
-          "500-999": 2.52,
-          "1000+": 2.42
+          "0-499": 2.84,
+          "500-999": 2.64,
+          "1000+": 2.54
         }
       },
       "promo": {
@@ -39,15 +39,15 @@
       "unit": "per_gallon",
       "status": "open",
       "status_reason": "",
-      "status_updated": "2026-03-04",
+      "status_updated": "2026-06-12",
       "effective_date": "2025-07-01",
       "expires_date": "2026-06-30",
       "pricing": {
         "mode": "tiers",
         "tiers": {
-          "0-499": 2.44,
-          "500-999": 2.14,
-          "1000+": 2.04
+          "0-499": 2.70,
+          "500-999": 2.24,
+          "1000+": 2.14
         }
       },
       "promo": {
