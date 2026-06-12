@@ -5,6 +5,31 @@
   "lookup_mode": "global",
   "plans": [
     {
+      "plan_id": "irving_propane_fixed",
+      "plan_type": "fixed",
+      "label": "Fixed Pricing",
+      "fuel": "propane",
+      "unit": "per_gallon",
+      "status": "open",
+      "pricing_status": "call_for_pricing",
+      "display_message": "Call Irving for current fixed pricing.",
+      "status_reason": "Fixed pricing is confirmed directly with Irving.",
+      "status_updated": "2026-06-12",
+      "effective_date": "2026-06-01",
+      "expires_date": "2027-05-31",
+      "pricing": {
+        "mode": "call_for_pricing",
+        "price": null
+      },
+      "promo": {
+        "enabled": false,
+        "headline": "",
+        "body": "",
+        "include_in_savings": false
+      },
+      "notes": "Member must call Irving and provide Hilltop PIN to confirm current fixed pricing."
+    },
+    {
       "plan_id": "irving_propane_rack",
       "plan_type": "rack",
       "label": "Rack Pricing",
