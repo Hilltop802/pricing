@@ -62,7 +62,7 @@
       "effective_date": "2026-06-12",
       "expires_date": "2026-06-30",
       "pricing": {
-        "mode": "closed",
+        "mode": "flat",
         "price": null
       },
       "promo": {
