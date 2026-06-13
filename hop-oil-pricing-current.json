@@ -63,7 +63,7 @@
       "expires_date": "2026-06-30",
       "pricing": {
         "mode": "flat",
-        "price": 0.00
+        "price": 0.001
       },
       "promo": {
         "enabled": false,
