@@ -11,6 +11,7 @@
       "fuel": "propane",
       "unit": "per_gallon",
       "status": "open",
+      "pricing_status": null,
       "status_reason": "",
       "status_updated": "2026-06-12",
       "effective_date": "2026-07-01",
@@ -29,7 +30,7 @@
         "body": "",
         "include_in_savings": false
       },
-      "notes": "Superior Plus fixed propane pricing for 2026-2027 season."
+      "notes": "Superior Plus fixed propane pricing for the 2026-2027 season."
     }
   ]
 }
