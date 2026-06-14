@@ -10,7 +10,7 @@
       "label": "Fixed Pricing",
       "fuel": "propane",
       "unit": "per_gallon",
-      "status": "open",
+      "status": "closed",
       "pricing_status": "call_for_pricing",
       "display_message": "Call Irving for current fixed pricing.",
       "status_reason": "Fixed pricing is confirmed directly with Irving.",
