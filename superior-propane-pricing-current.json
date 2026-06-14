@@ -10,7 +10,7 @@
       "label": "Fixed (Season)",
       "fuel": "propane",
       "unit": "per_gallon",
-      "status": "open",
+      "status": "opens",
       "pricing_status": null,
       "status_reason": "",
       "status_updated": "2026-06-12",
