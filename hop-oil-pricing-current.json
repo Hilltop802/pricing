@@ -11,7 +11,8 @@
       "fuel": "heating_oil",
       "unit": "per_gallon",
       "status": "open",
-      "status_reason": "Open for testing",
+      "pricing_status": null,
+      "status_reason": "",
       "status_updated": "2026-06-12",
       "effective_date": "2026-06-12",
       "expires_date": "2026-06-30",
@@ -20,12 +21,12 @@
         "price": 4.329
       },
       "promo": {
-        "enabled": true,
-        "headline": "PROMOTIONAL OFFER",
-        "body": "First delivery only. Terms apply. Not included in savings calculations.",
+        "enabled": false,
+        "headline": "",
+        "body": "",
         "include_in_savings": false
       },
-      "notes": "HOP oil updated 2026-03-03 per Keith. Keep CLOSED for testing."
+      "notes": "HOP oil updated 2026-03-03 per Keith."
     },
     {
       "plan_id": "hop_oil_capped",
@@ -34,7 +35,8 @@
       "fuel": "heating_oil",
       "unit": "per_gallon",
       "status": "open",
-      "status_reason": "Open for testing",
+      "pricing_status": null,
+      "status_reason": "",
       "status_updated": "2026-06-12",
       "effective_date": "2026-06-12",
       "expires_date": "2026-06-30",
@@ -48,7 +50,7 @@
         "body": "",
         "include_in_savings": false
       },
-      "notes": "Includes downside protection. Keep CLOSED for testing."
+      "notes": "Includes downside protection."
     },
     {
       "plan_id": "hop_oil_fixed",
@@ -56,8 +58,9 @@
       "label": "Fixed",
       "fuel": "heating_oil",
       "unit": "per_gallon",
-      "status": "closed",
-      "status_reason": "Open for testing",
+      "status": "pending",
+      "pricing_status": null,
+      "status_reason": "",
       "status_updated": "2026-06-12",
       "effective_date": "2026-06-12",
       "expires_date": "2026-06-30",
@@ -71,7 +74,7 @@
         "body": "",
         "include_in_savings": false
       },
-      "notes": "Requires budget/auto pay. Keep CLOSED for testing."
+      "notes": "Requires budget/auto pay."
     },
     {
       "plan_id": "hop_oil_prebuy",
@@ -80,7 +83,8 @@
       "fuel": "heating_oil",
       "unit": "per_gallon",
       "status": "open",
-      "status_reason": "Open for testing",
+      "pricing_status": null,
+      "status_reason": "",
       "status_updated": "2026-06-12",
       "effective_date": "2026-06-12",
       "expires_date": "2026-06-30",
@@ -94,7 +98,7 @@
         "body": "",
         "include_in_savings": false
       },
-      "notes": "All gallons paid up front. Keep CLOSED for testing."
+      "notes": "All gallons paid up front."
     }
   ]
 }
