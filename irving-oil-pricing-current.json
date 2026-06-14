@@ -36,6 +36,7 @@
       "fuel": "heating_oil",
       "unit": "per_gallon",
       "status": "pending",
+      "pricing_status": null,
       "status_reason": "",
       "status_updated": "2026-06-12",
       "effective_date": "2026-06-01",
