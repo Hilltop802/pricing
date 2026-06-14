@@ -10,7 +10,7 @@
       "label": "Variable (Weekly)",
       "fuel": "propane",
       "unit": "per_gallon",
-      "status": "open",
+      "status": "pending",
       "status_reason": "",
       "status_updated": "2026-06-04",
       "effective_date": "2026-06-04",
