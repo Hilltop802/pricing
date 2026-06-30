@@ -38,12 +38,12 @@
       "status": "pending",
       "pricing_status": null,
       "status_reason": "",
-      "status_updated": "2026-06-12",
-      "effective_date": "2026-06-01",
-      "expires_date": "2027-05-31",
+      "status_updated": "2026-06-30",
+      "effective_date": "2026-06-30",
+      "expires_date": "2027-07-01",
       "pricing": {
         "mode": "flat",
-        "price": 4.2916
+        "price": 3.9597
       },
       "promo": {
         "enabled": false,
