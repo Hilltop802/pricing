@@ -11,7 +11,7 @@
       "fuel": "propane",
       "unit": "per_gallon",
       "status": "open",
-      "pricing_status": call_for_pricing,
+      "pricing_status": "call_for_pricing",
       "display_message": "Fuel plan opening soon. Follow Hilltop on Facebook for updates.",
       "status_reason": "Call Irving for current fixed pricing.",
       "status_updated": "2026-06-30",
