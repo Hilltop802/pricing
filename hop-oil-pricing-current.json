@@ -42,7 +42,7 @@
       "expires_date": "2026-06-30",
       "pricing": {
         "mode": "flat",
-        "price": 4.679
+        "price": 4.449
       },
       "promo": {
         "enabled": false,
@@ -61,8 +61,8 @@
       "status": "closed",
       "pricing_status": null,
       "status_reason": "",
-      "status_updated": "2026-06-12",
-      "effective_date": "2026-06-12",
+      "status_updated": "2026-06-22",
+      "effective_date": "2026-06-22",
       "expires_date": "2026-06-30",
       "pricing": {
         "mode": "flat",
@@ -85,12 +85,12 @@
       "status": "open",
       "pricing_status": null,
       "status_reason": "",
-      "status_updated": "2026-06-12",
-      "effective_date": "2026-06-12",
+      "status_updated": "2026-06-22",
+      "effective_date": "2026-06-22",
       "expires_date": "2026-06-30",
       "pricing": {
         "mode": "flat",
-        "price": 4.279
+        "price": 4.049
       },
       "promo": {
         "enabled": false,
