@@ -31,7 +31,7 @@
     },
     {
       "plan_id": "irving_oil_rack_plus",
-      "plan_type": "variable",
+      "plan_type": "rack",
       "label": "Rack Plus Pricing",
       "fuel": "heating_oil",
       "unit": "per_gallon",
