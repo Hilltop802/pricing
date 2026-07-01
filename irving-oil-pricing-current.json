@@ -18,7 +18,7 @@
       "effective_date": "2026-06-30",
       "expires_date": "2027-05-31",
       "pricing": {
-        "mode": "flat",
+        "mode": "call_for_pricing",
         "price": null
       },
       "promo": {
