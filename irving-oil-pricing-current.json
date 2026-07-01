@@ -38,6 +38,7 @@
       "status": "open",
       "pricing_status": null,
       "status_reason": "",
+      "service_area_ref": "global"
       "status_updated": "2026-06-30",
       "effective_date": "2026-06-30",
       "expires_date": "2027-07-01",
