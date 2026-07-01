@@ -12,8 +12,8 @@
       "unit": "per_gallon",
       "status": "open",
       "pricing_status": "call_for_pricing",
-      "display_message": "Fuel plan opening soon. Follow Hilltop on Facebook for updates.",
-      "status_reason": "Fixed pricing will be available once enrollment opens.",
+      "display_message": "Call for current fixed pricing.",
+      "status_reason": "Call Irving for current fixed pricing.",
       "status_updated": "2026-06-30",
       "effective_date": "2026-06-30",
       "expires_date": "2027-05-31",
@@ -27,7 +27,7 @@
         "body": "",
         "include_in_savings": false
       },
-      "notes": "Member must call Irving and provide Hilltop PIN once enrollment opens."
+      "notes": "Member must call Irving and provide Hilltop PIN."
     },
     {
       "plan_id": "irving_oil_rack_plus",
@@ -38,7 +38,7 @@
       "status": "open",
       "pricing_status": null,
       "status_reason": "",
-      "serviceAreaRef": "global"
+      "serviceAreaRef": "global",
       "status_updated": "2026-06-30",
       "effective_date": "2026-06-30",
       "expires_date": "2027-07-01",
