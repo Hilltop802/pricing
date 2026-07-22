@@ -39,12 +39,12 @@
       "pricing_status": null,
       "status_reason": "",
       "serviceAreaRef": "global",
-      "status_updated": "2026-06-30",
-      "effective_date": "2026-06-30",
-      "expires_date": "2027-07-01",
+      "status_updated": "2026-07-21",
+      "effective_date": "2026-07-21",
+      "expires_date": "2027-07-22",
       "pricing": {
         "mode": "flat",
-        "price": 3.9597
+        "price": 4.6961
       },
       "promo": {
         "enabled": false,
