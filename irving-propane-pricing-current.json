@@ -39,16 +39,16 @@
       "pricing_status": null,
       "status_reason": "",
       "serviceAreaRef": "global",
-      "status_updated": "2026-06-30",
-      "effective_date": "2026-06-30",
-      "expires_date": "2027-07-01",
+      "status_updated": "2026-07-21",
+      "effective_date": "2026-07-21",
+      "expires_date": "2027-07-22",
       "pricing": {
         "mode": "tiers",
         "tiers": {
-          "0-500": 3.499,
-          "501-1000": 2.849,
-          "1001-1500": 2.649,
-          "1500+": 2.549
+          "0-500": 3.519,
+          "501-1000": 2.869,
+          "1001-1500": 2.669,
+          "1500+": 2.569
         }
       },
       "promo": {
