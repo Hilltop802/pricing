@@ -13,15 +13,15 @@
       "status": "open",
       "pricing_status": null,
       "status_reason": "",
-      "status_updated": "2026-07-22",
-      "effective_date": "2026-07-22",
-      "expires_date": "2026-07-30",
+      "status_updated": "2026-08-26",
+      "effective_date": "2026-08-26",
+      "expires_date": "2026-08-26",
       "pricing": {
         "mode": "tiers",
         "tiers": {
-          "0-499": 2.85,
-          "500-999": 2.65,
-          "1000+": 2.55
+          "0-499": 2.82,
+          "500-999": 2.62,
+          "1000+": 2.52
         }
       },
       "promo": {
