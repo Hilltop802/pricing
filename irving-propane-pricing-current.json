@@ -14,9 +14,9 @@
       "pricing_status": "call_for_pricing",
       "display_message": "Call for current fixed pricing.",
       "status_reason": "Call Irving for current fixed pricing.",
-      "status_updated": "2026-06-30",
-      "effective_date": "2026-06-01",
-      "expires_date": "2027-05-31",
+      "status_updated": "2026-09-23",
+      "effective_date": "2026-09-23",
+      "expires_date": "2026-09-23",
       "pricing": {
         "mode": "call_for_pricing",
         "price": null
@@ -39,16 +39,16 @@
       "pricing_status": null,
       "status_reason": "",
       "serviceAreaRef": "global",
-      "status_updated": "2026-07-21",
-      "effective_date": "2026-07-21",
-      "expires_date": "2027-07-22",
+      "status_updated": "2026-09-23",
+      "effective_date": "2026-09-23",
+      "expires_date": "2026-09-23",
       "pricing": {
         "mode": "tiers",
         "tiers": {
-          "0-500": 3.519,
-          "501-1000": 2.869,
-          "1001-1500": 2.669,
-          "1500+": 2.569
+          "0-500": 3.629,
+          "501-1000": 2.979,
+          "1001-1500": 2.779,
+          "1500+": 2.679
         }
       },
       "promo": {
